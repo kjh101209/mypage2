@@ -1,84 +1,63 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta property="og:title" content="밀리콩">
-    <meta property="og:description" content="구름머리 보들이와 자유로운 영혼 젤리를 그려요">
-    <meta property="og:image" content="https://s3.ap-northeast-2.amazonaws.com/materials.spartacodingclub.kr/free_myprofile/%EB%B0%80%EB%A6%AC%EC%BD%A9/%EB%B3%B4%EB%93%A4%EC%9D%B4.png">
-    <title>김지혁 - 프로필 링크</title>
+    <title>2023년 버킷리스트</title>
     <style>
-        @import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css');
-        * {
-            font-family: "Pretendard",serif;
+        @import url('https://fonts.googleapis.com/css2?family=Hahmlet:wght@400;500;600;700&display=swap');
+        * {font-family: 'Hahmlet', serif;}
+        .title {
+            color: white;
+            background-color: tomato;
+            font-size: 24px;
+            padding: 4px 14px;
+            border-radius: 8px;
         }
-        body {
-            background-color:#FFF4D7;
+
+        .bg {
+            width: 360px;
+            background-image: url("https://s3.ap-northeast-2.amazonaws.com/materials.spartacodingclub.kr/bucketList/bg-grid.png");
         }
-        .profile {
-            width: 100px;
-            height: 100px;
-            border-radius: 100%;
-            border: 1px solid black;
-            background-image: url('RRR.png');
-            background-position: center;
-            background-size: cover;
-        }
-        .main {
-            color : #000000;
-            font-size: 18px;
-            size : 20px;
-            margin-top: 30px;
-            margin-bottom: 10px;
-        }
-        .sub {
-            color : #000000;
-            font-size: 14px;
-            font-weight: 400;
-            size : 14px;
-            margin-top: 0px;
-            margin-bottom: 30px;
-        }
-        .wrap {
-            width: 300px;
-            margin: 30px auto 0px auto;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-        }
-        .wrap > a {
-            width: 320px;
-            height: 59px;
-            border-radius: 16px;
-            background-color: white;
-            margin-bottom: 16px;
-            font-size: 16px;
+
+        .msg {
             font-weight: bold;
-            color:#000000;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            text-decoration: none;
-            border: 1px solid #353432;
         }
-        .wrap > a:hover {
-            background-color: #ffebb5;
+
+        .bucket {
+            width: 160px;
+            height: 160px;
+        }
+
+        .img1 {
+            background-image: url("https://s3.ap-northeast-2.amazonaws.com/materials.spartacodingclub.kr/bucketList/bucket-red.png");
+            background-size: cover;
+            background-position: center;
+        }
+
+        .img2 {
+            background-image: url("https://s3.ap-northeast-2.amazonaws.com/materials.spartacodingclub.kr/bucketList/bucket-lightred.png");
+            background-size: cover;
+            background-position: center;
         }
     </style>
+    <link rel="stylesheet" type="text/css" href="https://s3.ap-northeast-2.amazonaws.com/materials.spartacodingclub.kr/bucketList/sparta-bucket2.css">
 </head>
-<body>
-    <div class="wrap">
-        <div class="profile"></div>
-        <h1 class="main">김지혁</h1>
-        <p class="sub" style="margin-bottom: 0px;">유튜브 및 트위치를 하고있는</p>
-        <p class="sub">김지혁이라고 함니다.</p>
-        <a target="_blank" href="https://www.youtube.com/@kjhYouTube/featured">김지혁유튜브</a>
-        <a target="_blank" href="https://www.youtube.com/@kjh_animated_movie_channel">김지혁 만화 채널</a>
-        <a target="_blank" href="https://www.youtube.com/@kjhbugeajung-gamesYouTube">김지혁 게임 채널(김지혁부게정)</a>
-        <a target="_blank" href="https://www.twitch.tv/kjh20101209">김지혁 트위치</a>
+
+<body class="bg-t2 center">
+    <h1 class="title">2023 신년계획</h1>
+    <p class="msg">올해는 꼭 모두 지키자!</P>
+    <div class="row flex-row wrap">
+        <div class="bucket img1-t3 center">검도 열심히 해서 채중 5kg 감량</div>
+        <div class="bucket img2-t3 center">검도 열심히 키 3cm 크기</div>
+        <div class="bucket img2-t2 center">계상 홈페이지 완성하기</div>
+        <div class="bucket img1-t2 center">코딩공부 더 열심히 하기</div>
+        <div class="bucket img1-t4 center">책 읽는 시간 많이 늘리기</div>
+        <div class="bucket img2-t4 center">돈, 에너지 등의 자원 아껴 쓰기</div>
     </div>
+
 </body>
+
 </html>
